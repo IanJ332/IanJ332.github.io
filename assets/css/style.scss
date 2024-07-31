@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom CSS */
+body {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+img.profile-pic {
+  transition: transform 0.3s;
+}
+
+img.profile-pic:hover {
+  transform: scale(1.1);
+}
